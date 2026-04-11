@@ -1,91 +1,77 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Chaoran Wu",
+  title: "CS × Interaction Design Student @ ShanghaiTech University",
+  description: "Portfolio website of Chaoran Wu",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "wuchr2023@shanghaitech.edu.cn",
+    linkedin: "https://www.linkedin.com/in/%E8%B6%85%E7%84%B6-%E5%90%B4-76ba2438b/",
+    instagram: "https://www.instagram.com/detach_t/",
+    github: "https://github.com/DetachWu",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a Junior undergraduate student from ViSeer Lab directed by Professor Quan Li at ShanghaiTech University. I work at the intersection of Computer Science and Interaction Design, exploring how AI can become a collaborative partner in human thinking. I am interested in designing creativity support systems and critical design installations that investigate new paradigms of human–AI collaboration. I am also interested in AI for education and gamified learning experiences. Currently, I am seeking project and research opportunities in AI for education, AI-supported creativity, and AI + art.",
+  skills: ["Python", "C++", "Processing", "Node.js", "React", "Arduino", "Unity", "Figma", "TouchDesigner", "Blender", "Fusion 360", "MR/VR"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Neural Tide",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "An immersive installation presented at the Ars Electronica Festival 2025. By merging EEG signals with AI, the work probes a reciprocal relationship between human consciousness and intelligent systems.",
+      link: "https://ars.electronica.art/panic/en/view/neural-tide-20e38ddb450c81dd877fd3e8ab9b9173/",
+      image: "/images/neural-tide.jpg",
+      skills: ["Processing", "EEG", "Supervised Learning"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Kiwi Plus",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Participated in the NYU Shanghai 2024 Digital Innovation Competition, developing a programming-assisted learning system co-maintained by instructors and students, based on the Problem-Based Learning (PBL) approach.",
+      image: "/images/kiwi-plus.png",
+      link: "https://www.notion.so/Kiwi-Plus-33e47ffe671280808fdddb96a356d5e0?source=copy_link",
+      skills: ["Node.js", "Python"],
     },
     {
-      name: "ExtensionKit",
+      name: "Mana Mingle",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "A networked multiplayer magic battle game where players explore the environment to collect and learn spells, fight against friends, and compete to claim trophies.",
+      link: "https://www.bilibili.com/video/BV16t8ceBEbo/?spm_id_from=333.337.search-card.all.click&vd_source=9c3ff8c00b77348aff67ac7851f23964",
+      image: "/images/mana-mingle.png",
+      skills: ["Unity", "Pixel Asset"],
     },
+    
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+      title:
+        "WordCraft: Scaffolding the Keyword Method for L2 Vocabulary Learning with Multimodal LLMs (CHI 26')",
+      authors:
+        "Yuheng Shao, Junjie Xiong, <strong>Chaoran Wu</strong>, Xiyuan Wang, Ziyu Zhou, Yang Ouyang, Qinyi Tao, Quan Li",
+      link: "https://arxiv.org/abs/2602.00762",
+      image: "/images/Wordcraft.png",
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
+      title: "2 UIST 26' papers are currently under review",
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "ShanghaiTech University",
+      degree:
+        "B.Eng. in Computer Science and Technology (Major), Minor in Interaction Design",
+      dateRange: "2023 - Present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Currently a junior undergraduate student",
+        "GPA: 3.6/4.0, ranked in the top 30%",
+        "Teaching Assistant for Design Thinking and VR Studio courses",
+        "Undergraduate researcher at ViSeer Lab",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "University of California, Berkeley",
+      degree: "Exchange Student",
+      dateRange: "Fall 2025",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "GPA: 4.0/4.0",
+        "Participated in research at the Berkeley Morphing Matter Lab",
       ],
     },
   ],

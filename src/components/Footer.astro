@@ -71,10 +71,10 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >
           </a>
           <a
-            href={siteConfig.social.twitter}
+            href={siteConfig.social.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Twitter"
+            aria-label="Instagram"
             class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)]"
             style={`--accent-color: ${siteConfig.accentColor}`}
           >
@@ -90,8 +90,9 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               stroke-linejoin="round"
               class="h-6 w-6"
               ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
-                d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path
-                d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg
+                d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8"></path><path
+                d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path><path
+                d="M16.5 7.5v.01"></path></svg
             >
           </a>
           <a
@@ -129,22 +130,22 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >About</a
           >
           {
+            hasExperience && (
+              <a
+                href="#papers"
+                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                Papers
+              </a>
+            )
+          }
+          {
             hasProjects && (
               <a
                 href="#projects"
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Projects
-              </a>
-            )
-          }
-          {
-            hasExperience && (
-              <a
-                href="#experience"
-                class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                Experience
               </a>
             )
           }
