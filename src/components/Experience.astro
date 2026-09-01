@@ -33,7 +33,7 @@ const withBase = (path?: string) => {
                 const Component = exp.link ? "a" : "div";
                 const linkProps = exp.link
                   ? {
-                      href: exp.link,
+                      href: withBase(exp.link),
                       target: "_blank",
                       rel: "noopener noreferrer",
                     }

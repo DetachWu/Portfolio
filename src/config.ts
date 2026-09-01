@@ -49,7 +49,12 @@ export const siteConfig = {
       image: "/images/Wordcraft.png",
     },
     {
-      title: "2 UIST 26' papers are currently under review",
+      title:
+        "Ideaverse: Structuring and Steering Design Brainstorming with a Multi-Agent LLM System (UIST 26')",
+      authors:
+        "<strong>Chaoran Wu*</strong>, Shenghan Gao*, Linjia Liu, Ziyu Zhou, Yang Ouyang, Shizhen Zhang, Yuheng Shao, Yanjun Zhou, Quan Li",
+      link: "/papers/Ideaverse-Poster.pdf",
+      image: "/images/Ideaverse.png",
     },
   ],
   education: [
