@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/DetachWu",
   },
   aboutMe:
-    "I'm a Junior undergraduate student from ViSeer Lab directed by Professor Quan Li at ShanghaiTech University. I work at the intersection of Computer Science and Interaction Design, exploring how AI can become a collaborative partner in human thinking. I am interested in designing creativity support systems and critical design installations that investigate new paradigms of human–AI collaboration. I am also interested in AI for education and gamified learning experiences. Currently, I am seeking project and research opportunities in AI for education, AI-supported creativity, and AI + art.",
+    "I'm a Junior undergraduate student from ViSeer Lab directed by Professor Quan Li at ShanghaiTech University. I work at the intersection of Computer Science and Interaction Design, exploring how AI can become a collaborative partner in human thinking. I am interested in designing creativity support systems and critical design installations that investigate new paradigms of human–AI collaboration. I am also interested in AI for education and gamified learning experiences. Currently, I am seeking PhD opportunities in human–AI interaction, AI-supported creativity, and AI for education.",
   skills: ["Python", "C++", "Processing", "Node.js", "React", "Arduino", "Unity", "Figma", "TouchDesigner", "Blender", "Fusion 360", "MR/VR"],
   projects: [
     {
